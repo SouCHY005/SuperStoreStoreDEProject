@@ -1,0 +1,26 @@
+
+version: 2
+
+models:
+  - name: stg_orders
+    description: "Staging Order Table"
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+          - unique
+  - name: dim_customers
+    description: "Master data for customers"
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - unique
+  - name: fct_sales_summary
+    description: "Fact table aggregating sales and profit metrics."
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+          - unique
+

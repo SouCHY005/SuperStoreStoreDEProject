@@ -1,0 +1,1160 @@
+[0m15:26:10.612350 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002086187B140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002086298D790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002086277E1B0>]}
+
+
+============================== 15:26:10.630882 | 26b589bd-f099-4f13-9b4c-4f5f53638427 ==============================
+[0m15:26:10.630882 [info ] [MainThread]: Running with dbt=1.8.9
+[0m15:26:10.634885 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'E:\\dbt\\DbtProject\\Superstore\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:26:10.726880 [info ] [MainThread]: dbt version: 1.8.9
+[0m15:26:10.728880 [info ] [MainThread]: python version: 3.12.3
+[0m15:26:10.731886 [info ] [MainThread]: python path: E:\dbt\DbtProject\.venv\Scripts\python.exe
+[0m15:26:10.733882 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m15:26:12.122487 [info ] [MainThread]: Using profiles dir at C:\Users\HP\.dbt
+[0m15:26:12.125491 [info ] [MainThread]: Using profiles.yml file at C:\Users\HP\.dbt\profiles.yml
+[0m15:26:12.128491 [info ] [MainThread]: Using dbt_project.yml file at E:\dbt\DbtProject\Superstore\dbt_project.yml
+[0m15:26:12.572665 [info ] [MainThread]: Configuration:
+[0m15:26:12.574654 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m15:26:12.577654 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m15:26:12.581655 [info ] [MainThread]: Required dependencies:
+[0m15:26:12.584654 [debug] [MainThread]: Executing "git --help"
+[0m15:26:12.618650 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m15:26:12.621655 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m15:26:12.624657 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m15:26:12.628660 [info ] [MainThread]: Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "Superstore", target "dev" invalid: 'driver' is a required property
+
+
+[0m15:26:12.635652 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m15:26:12.641665 [debug] [MainThread]: Command `dbt debug` failed at 15:26:12.641665 after 2.45 seconds
+[0m15:26:12.645671 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002086225E240>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208629DAFF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208630EE120>]}
+[0m15:26:12.647647 [debug] [MainThread]: Flushing usage events
+[0m17:24:52.363201 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181B516B350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181B4D2E360>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181B2C41130>]}
+
+
+============================== 17:24:52.387182 | ea2eb03c-fe35-4442-b27a-829634113cf2 ==============================
+[0m17:24:52.387182 [info ] [MainThread]: Running with dbt=1.8.9
+[0m17:24:52.391300 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'E:\\dbt\\DbtProject\\Superstore\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:24:52.532561 [info ] [MainThread]: dbt version: 1.8.9
+[0m17:24:52.534561 [info ] [MainThread]: python version: 3.12.3
+[0m17:24:52.536736 [info ] [MainThread]: python path: E:\dbt\DbtProject\.venv\Scripts\python.exe
+[0m17:24:52.538561 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m17:25:01.314035 [info ] [MainThread]: Using profiles dir at C:\Users\HP\.dbt
+[0m17:25:01.317038 [info ] [MainThread]: Using profiles.yml file at C:\Users\HP\.dbt\profiles.yml
+[0m17:25:01.320038 [info ] [MainThread]: Using dbt_project.yml file at E:\dbt\DbtProject\Superstore\dbt_project.yml
+[0m17:25:01.323035 [info ] [MainThread]: adapter type: sqlserver
+[0m17:25:01.334036 [info ] [MainThread]: adapter version: 1.8.7
+[0m17:25:01.681162 [info ] [MainThread]: Configuration:
+[0m17:25:01.684169 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:25:01.686168 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m17:25:01.688168 [info ] [MainThread]: Required dependencies:
+[0m17:25:01.690166 [debug] [MainThread]: Executing "git --help"
+[0m17:25:01.737164 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m17:25:01.739146 [info ] [MainThread]: Connection:
+[0m17:25:01.742149 [info ] [MainThread]:   server: DESKTOP-76IM985\SQLEXPRESS
+[0m17:25:01.745148 [info ] [MainThread]:   database: SuperstoreDETask
+[0m17:25:01.747146 [info ] [MainThread]:   schema: dbo
+[0m17:25:01.749246 [info ] [MainThread]:   UID: sa
+[0m17:25:01.752148 [info ] [MainThread]:   client_id: None
+[0m17:25:01.754149 [info ] [MainThread]:   authentication: sql
+[0m17:25:01.756148 [info ] [MainThread]:   encrypt: True
+[0m17:25:01.760180 [info ] [MainThread]:   trust_cert: False
+[0m17:25:01.762152 [info ] [MainThread]:   retries: 3
+[0m17:25:01.765154 [info ] [MainThread]:   login_timeout: 0
+[0m17:25:01.767165 [info ] [MainThread]:   query_timeout: 0
+[0m17:25:01.769162 [info ] [MainThread]:   trace_flag: False
+[0m17:25:01.771164 [info ] [MainThread]:   port: 1433
+[0m17:25:01.775153 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m17:25:03.531766 [debug] [MainThread]: Acquiring new sqlserver connection 'debug'
+[0m17:25:03.533763 [debug] [MainThread]: Using sqlserver connection "debug"
+[0m17:25:03.536764 [debug] [MainThread]: On debug: select 1 as id
+[0m17:25:03.538766 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:25:03.541770 [debug] [MainThread]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-76IM985\SQLEXPRESS;Database=SuperstoreDETask;UID={sa};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.7
+[0m17:25:04.164728 [debug] [MainThread]: sqlserver adapter: Got a retryable error when attempting to open a sqlserver connection.
+3 attempts remaining. Retrying in 1 seconds.
+Error:
+('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]SSL Provider: The certificate chain was issued by an authority that is not trusted.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Client unable to establish connection (-2146893019)')
+[0m17:25:05.168505 [debug] [MainThread]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-76IM985\SQLEXPRESS;Database=SuperstoreDETask;UID={sa};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.7
+[0m17:25:05.202510 [debug] [MainThread]: sqlserver adapter: Got a retryable error when attempting to open a sqlserver connection.
+2 attempts remaining. Retrying in 1 seconds.
+Error:
+('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]SSL Provider: The certificate chain was issued by an authority that is not trusted.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Client unable to establish connection (-2146893019)')
+[0m17:25:06.204977 [debug] [MainThread]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-76IM985\SQLEXPRESS;Database=SuperstoreDETask;UID={sa};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.7
+[0m17:25:06.232020 [debug] [MainThread]: sqlserver adapter: Got a retryable error when attempting to open a sqlserver connection.
+1 attempts remaining. Retrying in 1 seconds.
+Error:
+('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]SSL Provider: The certificate chain was issued by an authority that is not trusted.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Client unable to establish connection (-2146893019)')
+[0m17:25:07.234066 [debug] [MainThread]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-76IM985\SQLEXPRESS;Database=SuperstoreDETask;UID={sa};PWD=***;encrypt=Yes;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.7
+[0m17:25:07.264075 [debug] [MainThread]: fabric adapter: Error running SQL: select 1 as id
+[0m17:25:07.267073 [debug] [MainThread]: fabric adapter: Rolling back transaction.
+[0m17:25:07.269073 [debug] [MainThread]: On debug: No close available on handle
+[0m17:25:07.271074 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m17:25:07.274075 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m17:25:07.276074 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m17:25:07.279075 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]SSL Provider: The certificate chain was issued by an authority that is not trusted.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Client unable to establish connection (-2146893019)')
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m17:25:07.285072 [debug] [MainThread]: Command `dbt debug` failed at 17:25:07.284074 after 15.45 seconds
+[0m17:25:07.288074 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:25:07.290073 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181B2B4AC30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181B4946150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181B4946180>]}
+[0m17:25:07.293502 [debug] [MainThread]: Flushing usage events
+[0m17:27:43.782173 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5B8D98770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5B74EB0E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5BA24BA40>]}
+
+
+============================== 17:27:43.802186 | 8814d0ce-ebac-4dab-96f7-05a8e9dda52b ==============================
+[0m17:27:43.802186 [info ] [MainThread]: Running with dbt=1.8.9
+[0m17:27:43.805175 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'log_path': 'E:\\dbt\\DbtProject\\Superstore\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:27:45.788217 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '8814d0ce-ebac-4dab-96f7-05a8e9dda52b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5BA2C4080>]}
+[0m17:27:46.006001 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '8814d0ce-ebac-4dab-96f7-05a8e9dda52b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5BA2965A0>]}
+[0m17:27:46.009002 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m17:27:47.223219 [debug] [MainThread]: checksum: 132857a23e9d07220246854f7763165174ce9b737cfc7867629ace4294e520b1, vars: {}, profile: , target: , version: 1.8.9
+[0m17:27:47.229201 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m17:27:47.231205 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '8814d0ce-ebac-4dab-96f7-05a8e9dda52b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5BACBECC0>]}
+[0m17:27:54.873983 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `tests` config has been renamed to `data_tests`. Please see
+https://docs.getdbt.com/docs/build/data-tests#new-data_tests-syntax for more
+information.
+[0m17:27:54.876988 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '8814d0ce-ebac-4dab-96f7-05a8e9dda52b', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5BA53CD40>]}
+[0m17:27:55.701509 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.Superstore.example
+[0m17:27:55.725509 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8814d0ce-ebac-4dab-96f7-05a8e9dda52b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5BC06E090>]}
+[0m17:27:56.340211 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8814d0ce-ebac-4dab-96f7-05a8e9dda52b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5BBF97C80>]}
+[0m17:27:56.343207 [info ] [MainThread]: Found 3 models, 6 data tests, 504 macros
+[0m17:27:56.345207 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8814d0ce-ebac-4dab-96f7-05a8e9dda52b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5BC1AEE70>]}
+[0m17:27:56.354206 [info ] [MainThread]: 
+[0m17:27:56.357209 [debug] [MainThread]: Acquiring new sqlserver connection 'master'
+[0m17:27:56.382216 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_SuperstoreDETask'
+[0m17:27:56.451741 [debug] [ThreadPool]: dbt-sqlserver
+[0m17:27:56.453726 [debug] [ThreadPool]: Using sqlserver connection "list_SuperstoreDETask"
+[0m17:27:56.455728 [debug] [ThreadPool]: On list_SuperstoreDETask: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "connection_name": "list_SuperstoreDETask"} */
+USE [SuperstoreDETask];
+    select  name as [schema]
+    from sys.schemas with (nolock) 
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m17:27:56.457730 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:27:56.460736 [debug] [ThreadPool]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-76IM985\SQLEXPRESS;Database=SuperstoreDETask;UID={sa};PWD=***;encrypt=No;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.7
+[0m17:27:56.938608 [debug] [ThreadPool]: sqlserver adapter: Connected to db: SuperstoreDETask
+[0m17:27:57.013548 [debug] [ThreadPool]: SQL status: OK in 1.000 seconds
+[0m17:27:57.019543 [debug] [ThreadPool]: On list_SuperstoreDETask: Close
+[0m17:27:57.024530 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_SuperstoreDETask_dbo'
+[0m17:27:57.050543 [debug] [ThreadPool]: dbt-sqlserver
+[0m17:27:57.052527 [debug] [ThreadPool]: Using sqlserver connection "list_SuperstoreDETask_dbo"
+[0m17:27:57.054532 [debug] [ThreadPool]: On list_SuperstoreDETask_dbo: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "connection_name": "list_SuperstoreDETask_dbo"} */
+USE [SuperstoreDETask];
+    with base as (
+      select
+        DB_NAME() as [database],
+        t.name as [name],
+        SCHEMA_NAME(t.schema_id) as [schema],
+        'table' as table_type
+      from sys.tables as t with (nolock)
+      union all
+      select
+        DB_NAME() as [database],
+        v.name as [name],
+        SCHEMA_NAME(v.schema_id) as [schema],
+        'view' as table_type
+      from sys.views as v with (nolock)
+    )
+    select * from base
+    where [schema] like 'dbo'
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m17:27:57.055545 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:27:57.057544 [debug] [ThreadPool]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-76IM985\SQLEXPRESS;Database=SuperstoreDETask;UID={sa};PWD=***;encrypt=No;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.7
+[0m17:27:57.059548 [debug] [ThreadPool]: sqlserver adapter: Connected to db: SuperstoreDETask
+[0m17:27:57.251764 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m17:27:57.257765 [debug] [ThreadPool]: On list_SuperstoreDETask_dbo: ROLLBACK
+[0m17:27:57.260766 [debug] [ThreadPool]: On list_SuperstoreDETask_dbo: Close
+[0m17:27:57.263784 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8814d0ce-ebac-4dab-96f7-05a8e9dda52b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5BC1AD280>]}
+[0m17:27:57.266784 [debug] [MainThread]: On master: COMMIT
+[0m17:27:57.268769 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m17:27:57.270767 [info ] [MainThread]: 
+[0m17:27:57.367768 [debug] [Thread-1 (]: Began running node model.Superstore.dim_customers
+[0m17:27:57.370765 [info ] [Thread-1 (]: 1 of 3 START sql view model dbo.dim_customers .................................. [RUN]
+[0m17:27:57.373768 [debug] [Thread-1 (]: Acquiring new sqlserver connection 'model.Superstore.dim_customers'
+[0m17:27:57.376771 [debug] [Thread-1 (]: Began compiling node model.Superstore.dim_customers
+[0m17:27:57.402768 [debug] [Thread-1 (]: Writing injected SQL for node "model.Superstore.dim_customers"
+[0m17:27:57.415766 [debug] [Thread-1 (]: Began executing node model.Superstore.dim_customers
+[0m17:27:57.570781 [debug] [Thread-1 (]: Writing runtime sql for node "model.Superstore.dim_customers"
+[0m17:27:57.577766 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.dim_customers"
+[0m17:27:57.580785 [debug] [Thread-1 (]: On model.Superstore.dim_customers: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.dim_customers"} */
+USE [SuperstoreDETask];
+    
+    
+
+    
+
+    
+    USE [SuperstoreDETask];
+    EXEC('
+        create view "dbo"."dim_customers__dbt_tmp" as -- DimCustomer
+
+
+
+SELECT DISTINCT
+    customer_id,
+    customer_name,
+    [Segment],
+    [Country],
+    [Region]
+FROM dbo.SuperstoreSource;
+    ')
+
+
+[0m17:27:57.582781 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m17:27:57.584767 [debug] [Thread-1 (]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-76IM985\SQLEXPRESS;Database=SuperstoreDETask;UID={sa};PWD=***;encrypt=No;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.7
+[0m17:27:57.598786 [debug] [Thread-1 (]: sqlserver adapter: Connected to db: SuperstoreDETask
+[0m17:27:57.647782 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:27:57.672792 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.dim_customers"
+[0m17:27:57.675766 [debug] [Thread-1 (]: On model.Superstore.dim_customers: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.dim_customers"} */
+USE [SuperstoreDETask];
+      EXEC sp_rename 'dbo.dim_customers__dbt_tmp', 'dim_customers'
+[0m17:27:58.421764 [debug] [Thread-1 (]: SQL status: OK in 1.000 seconds
+[0m17:27:58.494765 [debug] [Thread-1 (]: On model.Superstore.dim_customers: COMMIT
+[0m17:27:58.521781 [debug] [Thread-1 (]: Applying DROP to: "SuperstoreDETask"."dbo"."dim_customers__dbt_backup"
+[0m17:27:58.556780 [debug] [Thread-1 (]: dbt-sqlserver
+[0m17:27:58.559783 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.dim_customers"
+[0m17:27:58.563783 [debug] [Thread-1 (]: On model.Superstore.dim_customers: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.dim_customers"} */
+
+        USE [SuperstoreDETask];
+        select
+            sch.name as schema_name,
+            obj.name as view_name
+        from sys.sql_expression_dependencies refs
+        inner join sys.objects obj
+        on refs.referencing_id = obj.object_id
+        inner join sys.schemas sch
+        on obj.schema_id = sch.schema_id
+        where refs.referenced_database_name = 'SuperstoreDETask'
+        and refs.referenced_schema_name = 'dbo'
+        and refs.referenced_entity_name = 'dim_customers__dbt_backup'
+        and refs.referencing_class = 1
+        and obj.type = 'V'
+        
+    OPTION (LABEL = 'dbt-sqlserver');
+
+      
+[0m17:27:58.664012 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:27:58.670765 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.dim_customers"
+[0m17:27:58.672764 [debug] [Thread-1 (]: On model.Superstore.dim_customers: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.dim_customers"} */
+
+      
+      
+    
+    USE [SuperstoreDETask];
+    EXEC('DROP view IF EXISTS "dbo"."dim_customers__dbt_backup";');
+
+[0m17:27:58.678768 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:27:58.687761 [debug] [Thread-1 (]: On model.Superstore.dim_customers: ROLLBACK
+[0m17:27:58.689763 [debug] [Thread-1 (]: On model.Superstore.dim_customers: Close
+[0m17:27:58.694762 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8814d0ce-ebac-4dab-96f7-05a8e9dda52b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5B7A411F0>]}
+[0m17:27:58.697764 [info ] [Thread-1 (]: 1 of 3 OK created sql view model dbo.dim_customers ............................. [[32mOK[0m in 1.32s]
+[0m17:27:58.701780 [debug] [Thread-1 (]: Finished running node model.Superstore.dim_customers
+[0m17:27:58.704777 [debug] [Thread-1 (]: Began running node model.Superstore.stg_orders
+[0m17:27:58.707067 [info ] [Thread-1 (]: 2 of 3 START sql view model dbo.stg_orders ..................................... [RUN]
+[0m17:27:58.709767 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.Superstore.dim_customers, now model.Superstore.stg_orders)
+[0m17:27:58.711780 [debug] [Thread-1 (]: Began compiling node model.Superstore.stg_orders
+[0m17:27:58.724765 [debug] [Thread-1 (]: Writing injected SQL for node "model.Superstore.stg_orders"
+[0m17:27:58.730765 [debug] [Thread-1 (]: Began executing node model.Superstore.stg_orders
+[0m17:27:58.744782 [debug] [Thread-1 (]: Writing runtime sql for node "model.Superstore.stg_orders"
+[0m17:27:58.752007 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.stg_orders"
+[0m17:27:58.754785 [debug] [Thread-1 (]: On model.Superstore.stg_orders: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.stg_orders"} */
+USE [SuperstoreDETask];
+    
+    
+
+    
+
+    
+    USE [SuperstoreDETask];
+    EXEC('
+        create view "dbo"."stg_orders__dbt_tmp" as -- Order Staging 
+
+
+SELECT
+    CAST([Order_ID] AS VARCHAR(200)) AS order_id,
+    Order_Date,
+    Ship_Date,
+    Customer_ID,
+    [Segment],
+    [Country],
+    [Region],
+    [Category],
+    sub_category,
+    [Sales],
+    [Profit]
+FROM dbo.SuperstoreSource;
+    ')
+
+
+[0m17:27:58.756763 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:27:58.758763 [debug] [Thread-1 (]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-76IM985\SQLEXPRESS;Database=SuperstoreDETask;UID={sa};PWD=***;encrypt=No;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.7
+[0m17:27:58.761768 [debug] [Thread-1 (]: sqlserver adapter: Connected to db: SuperstoreDETask
+[0m17:27:58.772721 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:27:58.785720 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.stg_orders"
+[0m17:27:58.788725 [debug] [Thread-1 (]: On model.Superstore.stg_orders: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.stg_orders"} */
+USE [SuperstoreDETask];
+      EXEC sp_rename 'dbo.stg_orders__dbt_tmp', 'stg_orders'
+[0m17:27:58.796720 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:27:58.802721 [debug] [Thread-1 (]: On model.Superstore.stg_orders: COMMIT
+[0m17:27:58.812719 [debug] [Thread-1 (]: Applying DROP to: "SuperstoreDETask"."dbo"."stg_orders__dbt_backup"
+[0m17:27:58.816718 [debug] [Thread-1 (]: dbt-sqlserver
+[0m17:27:58.819721 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.stg_orders"
+[0m17:27:58.822721 [debug] [Thread-1 (]: On model.Superstore.stg_orders: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.stg_orders"} */
+
+        USE [SuperstoreDETask];
+        select
+            sch.name as schema_name,
+            obj.name as view_name
+        from sys.sql_expression_dependencies refs
+        inner join sys.objects obj
+        on refs.referencing_id = obj.object_id
+        inner join sys.schemas sch
+        on obj.schema_id = sch.schema_id
+        where refs.referenced_database_name = 'SuperstoreDETask'
+        and refs.referenced_schema_name = 'dbo'
+        and refs.referenced_entity_name = 'stg_orders__dbt_backup'
+        and refs.referencing_class = 1
+        and obj.type = 'V'
+        
+    OPTION (LABEL = 'dbt-sqlserver');
+
+      
+[0m17:27:58.860706 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:27:58.866701 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.stg_orders"
+[0m17:27:58.868705 [debug] [Thread-1 (]: On model.Superstore.stg_orders: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.stg_orders"} */
+
+      
+      
+    
+    USE [SuperstoreDETask];
+    EXEC('DROP view IF EXISTS "dbo"."stg_orders__dbt_backup";');
+
+[0m17:27:58.872704 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:27:58.878703 [debug] [Thread-1 (]: On model.Superstore.stg_orders: ROLLBACK
+[0m17:27:58.881705 [debug] [Thread-1 (]: On model.Superstore.stg_orders: Close
+[0m17:27:58.883704 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8814d0ce-ebac-4dab-96f7-05a8e9dda52b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5BC2A63F0>]}
+[0m17:27:58.886705 [info ] [Thread-1 (]: 2 of 3 OK created sql view model dbo.stg_orders ................................ [[32mOK[0m in 0.17s]
+[0m17:27:58.890704 [debug] [Thread-1 (]: Finished running node model.Superstore.stg_orders
+[0m17:27:58.893707 [debug] [Thread-1 (]: Began running node model.Superstore.fct_sales_summary
+[0m17:27:58.896704 [info ] [Thread-1 (]: 3 of 3 START sql view model dbo.fct_sales_summary .............................. [RUN]
+[0m17:27:58.899709 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.Superstore.stg_orders, now model.Superstore.fct_sales_summary)
+[0m17:27:58.901706 [debug] [Thread-1 (]: Began compiling node model.Superstore.fct_sales_summary
+[0m17:27:58.914702 [debug] [Thread-1 (]: Writing injected SQL for node "model.Superstore.fct_sales_summary"
+[0m17:27:58.920707 [debug] [Thread-1 (]: Began executing node model.Superstore.fct_sales_summary
+[0m17:27:58.935712 [debug] [Thread-1 (]: Writing runtime sql for node "model.Superstore.fct_sales_summary"
+[0m17:27:58.941712 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.fct_sales_summary"
+[0m17:27:58.944721 [debug] [Thread-1 (]: On model.Superstore.fct_sales_summary: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.fct_sales_summary"} */
+USE [SuperstoreDETask];
+    
+    
+
+    
+
+    
+    USE [SuperstoreDETask];
+    EXEC('
+        create view "dbo"."fct_sales_summary__dbt_tmp" as --Fact Sales
+
+SELECT
+    customer_id,
+    category,
+    sub_category,
+    SUM(sales) AS total_sales,
+    SUM(profit) AS total_profit
+FROM "SuperstoreDETask"."dbo"."stg_orders"
+GROUP BY customer_id, category, sub_category;
+    ')
+
+
+[0m17:27:58.947707 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:27:58.949707 [debug] [Thread-1 (]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-76IM985\SQLEXPRESS;Database=SuperstoreDETask;UID={sa};PWD=***;encrypt=No;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.7
+[0m17:27:58.953234 [debug] [Thread-1 (]: sqlserver adapter: Connected to db: SuperstoreDETask
+[0m17:27:58.962237 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:27:58.975227 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.fct_sales_summary"
+[0m17:27:58.977230 [debug] [Thread-1 (]: On model.Superstore.fct_sales_summary: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.fct_sales_summary"} */
+USE [SuperstoreDETask];
+      EXEC sp_rename 'dbo.fct_sales_summary__dbt_tmp', 'fct_sales_summary'
+[0m17:27:58.985231 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:27:58.991229 [debug] [Thread-1 (]: On model.Superstore.fct_sales_summary: COMMIT
+[0m17:27:59.001228 [debug] [Thread-1 (]: Applying DROP to: "SuperstoreDETask"."dbo"."fct_sales_summary__dbt_backup"
+[0m17:27:59.005749 [debug] [Thread-1 (]: dbt-sqlserver
+[0m17:27:59.008755 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.fct_sales_summary"
+[0m17:27:59.010752 [debug] [Thread-1 (]: On model.Superstore.fct_sales_summary: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.fct_sales_summary"} */
+
+        USE [SuperstoreDETask];
+        select
+            sch.name as schema_name,
+            obj.name as view_name
+        from sys.sql_expression_dependencies refs
+        inner join sys.objects obj
+        on refs.referencing_id = obj.object_id
+        inner join sys.schemas sch
+        on obj.schema_id = sch.schema_id
+        where refs.referenced_database_name = 'SuperstoreDETask'
+        and refs.referenced_schema_name = 'dbo'
+        and refs.referenced_entity_name = 'fct_sales_summary__dbt_backup'
+        and refs.referencing_class = 1
+        and obj.type = 'V'
+        
+    OPTION (LABEL = 'dbt-sqlserver');
+
+      
+[0m17:27:59.049768 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:27:59.055767 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.fct_sales_summary"
+[0m17:27:59.057751 [debug] [Thread-1 (]: On model.Superstore.fct_sales_summary: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.fct_sales_summary"} */
+
+      
+      
+    
+    USE [SuperstoreDETask];
+    EXEC('DROP view IF EXISTS "dbo"."fct_sales_summary__dbt_backup";');
+
+[0m17:27:59.061757 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:27:59.068751 [debug] [Thread-1 (]: On model.Superstore.fct_sales_summary: ROLLBACK
+[0m17:27:59.070757 [debug] [Thread-1 (]: On model.Superstore.fct_sales_summary: Close
+[0m17:27:59.072753 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8814d0ce-ebac-4dab-96f7-05a8e9dda52b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5BC265280>]}
+[0m17:27:59.076757 [info ] [Thread-1 (]: 3 of 3 OK created sql view model dbo.fct_sales_summary ......................... [[32mOK[0m in 0.17s]
+[0m17:27:59.080267 [debug] [Thread-1 (]: Finished running node model.Superstore.fct_sales_summary
+[0m17:27:59.085284 [debug] [MainThread]: On master: COMMIT
+[0m17:27:59.088283 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:27:59.090450 [debug] [MainThread]: Connection 'list_SuperstoreDETask' was properly closed.
+[0m17:27:59.093289 [debug] [MainThread]: Connection 'list_SuperstoreDETask_dbo' was properly closed.
+[0m17:27:59.095284 [debug] [MainThread]: Connection 'model.Superstore.fct_sales_summary' was properly closed.
+[0m17:27:59.098286 [info ] [MainThread]: 
+[0m17:27:59.101302 [info ] [MainThread]: Finished running 3 view models in 0 hours 0 minutes and 2.74 seconds (2.74s).
+[0m17:27:59.108281 [debug] [MainThread]: Command end result
+[0m17:27:59.240280 [info ] [MainThread]: 
+[0m17:27:59.242284 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m17:27:59.244998 [info ] [MainThread]: 
+[0m17:27:59.247284 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[0m17:27:59.251279 [debug] [MainThread]: Command `dbt run` succeeded at 17:27:59.251279 after 15.89 seconds
+[0m17:27:59.254284 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5BC0B08F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5B92F5F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5B9D7AAE0>]}
+[0m17:27:59.256283 [debug] [MainThread]: Flushing usage events
+[0m17:49:33.280238 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEED27B6E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEED27A990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEEDBBBD10>]}
+
+
+============================== 17:49:33.765894 | a9227c84-9494-4f7f-836b-8ebf475b2047 ==============================
+[0m17:49:33.765894 [info ] [MainThread]: Running with dbt=1.8.9
+[0m17:49:33.769898 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'E:\\dbt\\DbtProject\\Superstore\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m17:49:36.153034 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a9227c84-9494-4f7f-836b-8ebf475b2047', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEEF5C8C20>]}
+[0m17:49:36.361730 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a9227c84-9494-4f7f-836b-8ebf475b2047', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEED086180>]}
+[0m17:49:36.364750 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m17:49:37.704587 [debug] [MainThread]: checksum: 132857a23e9d07220246854f7763165174ce9b737cfc7867629ace4294e520b1, vars: {}, profile: , target: , version: 1.8.9
+[0m17:49:38.549875 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 2 files changed.
+[0m17:49:38.552879 [debug] [MainThread]: Partial parsing: updated file: Superstore://models\facts\fct_sales_summary.sql
+[0m17:49:38.555882 [debug] [MainThread]: Partial parsing: updated file: Superstore://models\Dimension\dim_customers.sql
+[0m17:49:39.704866 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `tests` config has been renamed to `data_tests`. Please see
+https://docs.getdbt.com/docs/build/data-tests#new-data_tests-syntax for more
+information.
+[0m17:49:39.707870 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'a9227c84-9494-4f7f-836b-8ebf475b2047', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEEF68FE30>]}
+[0m17:49:40.395477 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.Superstore.example
+[0m17:49:40.417476 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a9227c84-9494-4f7f-836b-8ebf475b2047', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEEFD17D70>]}
+[0m17:49:40.874025 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a9227c84-9494-4f7f-836b-8ebf475b2047', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEEFAAE4B0>]}
+[0m17:49:40.877029 [info ] [MainThread]: Found 3 models, 6 data tests, 504 macros
+[0m17:49:40.880029 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a9227c84-9494-4f7f-836b-8ebf475b2047', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEEFB8B110>]}
+[0m17:49:40.888035 [info ] [MainThread]: 
+[0m17:49:40.891027 [debug] [MainThread]: Acquiring new sqlserver connection 'master'
+[0m17:49:40.915024 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_SuperstoreDETask'
+[0m17:49:40.996027 [debug] [ThreadPool]: dbt-sqlserver
+[0m17:49:40.998024 [debug] [ThreadPool]: Using sqlserver connection "list_SuperstoreDETask"
+[0m17:49:41.001028 [debug] [ThreadPool]: On list_SuperstoreDETask: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "connection_name": "list_SuperstoreDETask"} */
+USE [SuperstoreDETask];
+    select  name as [schema]
+    from sys.schemas with (nolock) 
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m17:49:41.003029 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:49:41.005026 [debug] [ThreadPool]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-76IM985\SQLEXPRESS;Database=SuperstoreDETask;UID={sa};PWD=***;encrypt=No;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.7
+[0m17:49:41.358614 [debug] [ThreadPool]: sqlserver adapter: Connected to db: SuperstoreDETask
+[0m17:49:41.384613 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m17:49:41.392134 [debug] [ThreadPool]: On list_SuperstoreDETask: Close
+[0m17:49:41.399134 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_SuperstoreDETask_dbo'
+[0m17:49:41.428130 [debug] [ThreadPool]: dbt-sqlserver
+[0m17:49:41.430132 [debug] [ThreadPool]: Using sqlserver connection "list_SuperstoreDETask_dbo"
+[0m17:49:41.432131 [debug] [ThreadPool]: On list_SuperstoreDETask_dbo: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "connection_name": "list_SuperstoreDETask_dbo"} */
+USE [SuperstoreDETask];
+    with base as (
+      select
+        DB_NAME() as [database],
+        t.name as [name],
+        SCHEMA_NAME(t.schema_id) as [schema],
+        'table' as table_type
+      from sys.tables as t with (nolock)
+      union all
+      select
+        DB_NAME() as [database],
+        v.name as [name],
+        SCHEMA_NAME(v.schema_id) as [schema],
+        'view' as table_type
+      from sys.views as v with (nolock)
+    )
+    select * from base
+    where [schema] like 'dbo'
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m17:49:41.434133 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:49:41.436133 [debug] [ThreadPool]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-76IM985\SQLEXPRESS;Database=SuperstoreDETask;UID={sa};PWD=***;encrypt=No;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.7
+[0m17:49:41.443131 [debug] [ThreadPool]: sqlserver adapter: Connected to db: SuperstoreDETask
+[0m17:49:41.638253 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m17:49:41.644251 [debug] [ThreadPool]: On list_SuperstoreDETask_dbo: ROLLBACK
+[0m17:49:41.647258 [debug] [ThreadPool]: On list_SuperstoreDETask_dbo: Close
+[0m17:49:41.653253 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a9227c84-9494-4f7f-836b-8ebf475b2047', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEEFC82330>]}
+[0m17:49:41.656257 [debug] [MainThread]: On master: COMMIT
+[0m17:49:41.658255 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m17:49:41.661254 [info ] [MainThread]: 
+[0m17:49:41.691362 [debug] [Thread-1 (]: Began running node model.Superstore.dim_customers
+[0m17:49:41.694351 [info ] [Thread-1 (]: 1 of 3 START sql view model dbo.dim_customers .................................. [RUN]
+[0m17:49:41.699356 [debug] [Thread-1 (]: Acquiring new sqlserver connection 'model.Superstore.dim_customers'
+[0m17:49:41.704355 [debug] [Thread-1 (]: Began compiling node model.Superstore.dim_customers
+[0m17:49:41.734346 [debug] [Thread-1 (]: Writing injected SQL for node "model.Superstore.dim_customers"
+[0m17:49:41.740348 [debug] [Thread-1 (]: Began executing node model.Superstore.dim_customers
+[0m17:49:41.900405 [debug] [Thread-1 (]: Writing runtime sql for node "model.Superstore.dim_customers"
+[0m17:49:41.906401 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.dim_customers"
+[0m17:49:41.909416 [debug] [Thread-1 (]: On model.Superstore.dim_customers: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.dim_customers"} */
+USE [SuperstoreDETask];
+    
+    
+
+    
+
+    
+    USE [SuperstoreDETask];
+    EXEC('
+        create view "dbo"."dim_customers__dbt_tmp" as -- DimCustomer
+
+
+
+SELECT DISTINCT
+    customer_id,
+    customer_name,
+    [Segment],
+    [Country]
+FROM dbo.SuperstoreSource;
+    ')
+
+
+[0m17:49:41.911401 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m17:49:41.913932 [debug] [Thread-1 (]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-76IM985\SQLEXPRESS;Database=SuperstoreDETask;UID={sa};PWD=***;encrypt=No;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.7
+[0m17:49:41.925928 [debug] [Thread-1 (]: sqlserver adapter: Connected to db: SuperstoreDETask
+[0m17:49:41.955933 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:49:41.984930 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.dim_customers"
+[0m17:49:41.987459 [debug] [Thread-1 (]: On model.Superstore.dim_customers: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.dim_customers"} */
+USE [SuperstoreDETask];
+      EXEC sp_rename 'dbo.dim_customers', 'dim_customers__dbt_backup'
+[0m17:49:43.076920 [debug] [Thread-1 (]: SQL status: OK in 1.000 seconds
+[0m17:49:43.088903 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.dim_customers"
+[0m17:49:43.090904 [debug] [Thread-1 (]: On model.Superstore.dim_customers: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.dim_customers"} */
+USE [SuperstoreDETask];
+      EXEC sp_rename 'dbo.dim_customers__dbt_tmp', 'dim_customers'
+[0m17:49:43.098906 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:49:43.193495 [debug] [Thread-1 (]: On model.Superstore.dim_customers: COMMIT
+[0m17:49:43.392048 [debug] [Thread-1 (]: Applying DROP to: "SuperstoreDETask"."dbo"."dim_customers__dbt_backup"
+[0m17:49:43.425024 [debug] [Thread-1 (]: dbt-sqlserver
+[0m17:49:43.429025 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.dim_customers"
+[0m17:49:43.432028 [debug] [Thread-1 (]: On model.Superstore.dim_customers: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.dim_customers"} */
+
+        USE [SuperstoreDETask];
+        select
+            sch.name as schema_name,
+            obj.name as view_name
+        from sys.sql_expression_dependencies refs
+        inner join sys.objects obj
+        on refs.referencing_id = obj.object_id
+        inner join sys.schemas sch
+        on obj.schema_id = sch.schema_id
+        where refs.referenced_database_name = 'SuperstoreDETask'
+        and refs.referenced_schema_name = 'dbo'
+        and refs.referenced_entity_name = 'dim_customers__dbt_backup'
+        and refs.referencing_class = 1
+        and obj.type = 'V'
+        
+    OPTION (LABEL = 'dbt-sqlserver');
+
+      
+[0m17:49:43.550553 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:49:43.558554 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.dim_customers"
+[0m17:49:43.561117 [debug] [Thread-1 (]: On model.Superstore.dim_customers: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.dim_customers"} */
+
+      
+      
+    
+    USE [SuperstoreDETask];
+    EXEC('DROP view IF EXISTS "dbo"."dim_customers__dbt_backup";');
+
+[0m17:49:43.578656 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:49:43.587667 [debug] [Thread-1 (]: On model.Superstore.dim_customers: ROLLBACK
+[0m17:49:43.589654 [debug] [Thread-1 (]: On model.Superstore.dim_customers: Close
+[0m17:49:43.595671 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a9227c84-9494-4f7f-836b-8ebf475b2047', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEEB3B1220>]}
+[0m17:49:43.598672 [info ] [Thread-1 (]: 1 of 3 OK created sql view model dbo.dim_customers ............................. [[32mOK[0m in 1.89s]
+[0m17:49:43.603660 [debug] [Thread-1 (]: Finished running node model.Superstore.dim_customers
+[0m17:49:43.606661 [debug] [Thread-1 (]: Began running node model.Superstore.stg_orders
+[0m17:49:43.609660 [info ] [Thread-1 (]: 2 of 3 START sql view model dbo.stg_orders ..................................... [RUN]
+[0m17:49:43.613658 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.Superstore.dim_customers, now model.Superstore.stg_orders)
+[0m17:49:43.615660 [debug] [Thread-1 (]: Began compiling node model.Superstore.stg_orders
+[0m17:49:43.624176 [debug] [Thread-1 (]: Writing injected SQL for node "model.Superstore.stg_orders"
+[0m17:49:43.629179 [debug] [Thread-1 (]: Began executing node model.Superstore.stg_orders
+[0m17:49:43.647174 [debug] [Thread-1 (]: Writing runtime sql for node "model.Superstore.stg_orders"
+[0m17:49:43.653179 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.stg_orders"
+[0m17:49:43.655819 [debug] [Thread-1 (]: On model.Superstore.stg_orders: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.stg_orders"} */
+USE [SuperstoreDETask];
+    
+    
+
+    
+
+    
+    USE [SuperstoreDETask];
+    EXEC('
+        create view "dbo"."stg_orders__dbt_tmp" as -- Order Staging 
+
+
+SELECT
+    CAST([Order_ID] AS VARCHAR(200)) AS order_id,
+    Order_Date,
+    Ship_Date,
+    Customer_ID,
+    [Segment],
+    [Country],
+    [Region],
+    [Category],
+    sub_category,
+    [Sales],
+    [Profit]
+FROM dbo.SuperstoreSource;
+    ')
+
+
+[0m17:49:43.657725 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:49:43.660703 [debug] [Thread-1 (]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-76IM985\SQLEXPRESS;Database=SuperstoreDETask;UID={sa};PWD=***;encrypt=No;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.7
+[0m17:49:43.663706 [debug] [Thread-1 (]: sqlserver adapter: Connected to db: SuperstoreDETask
+[0m17:49:43.675704 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:49:43.689700 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.stg_orders"
+[0m17:49:43.691707 [debug] [Thread-1 (]: On model.Superstore.stg_orders: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.stg_orders"} */
+USE [SuperstoreDETask];
+      EXEC sp_rename 'dbo.stg_orders', 'stg_orders__dbt_backup'
+[0m17:49:44.787413 [debug] [Thread-1 (]: SQL status: OK in 1.000 seconds
+[0m17:49:44.802412 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.stg_orders"
+[0m17:49:44.804412 [debug] [Thread-1 (]: On model.Superstore.stg_orders: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.stg_orders"} */
+USE [SuperstoreDETask];
+      EXEC sp_rename 'dbo.stg_orders__dbt_tmp', 'stg_orders'
+[0m17:49:44.813413 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:49:44.822408 [debug] [Thread-1 (]: On model.Superstore.stg_orders: COMMIT
+[0m17:49:44.835409 [debug] [Thread-1 (]: Applying DROP to: "SuperstoreDETask"."dbo"."stg_orders__dbt_backup"
+[0m17:49:44.841409 [debug] [Thread-1 (]: dbt-sqlserver
+[0m17:49:44.844414 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.stg_orders"
+[0m17:49:44.848410 [debug] [Thread-1 (]: On model.Superstore.stg_orders: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.stg_orders"} */
+
+        USE [SuperstoreDETask];
+        select
+            sch.name as schema_name,
+            obj.name as view_name
+        from sys.sql_expression_dependencies refs
+        inner join sys.objects obj
+        on refs.referencing_id = obj.object_id
+        inner join sys.schemas sch
+        on obj.schema_id = sch.schema_id
+        where refs.referenced_database_name = 'SuperstoreDETask'
+        and refs.referenced_schema_name = 'dbo'
+        and refs.referenced_entity_name = 'stg_orders__dbt_backup'
+        and refs.referencing_class = 1
+        and obj.type = 'V'
+        
+    OPTION (LABEL = 'dbt-sqlserver');
+
+      
+[0m17:49:44.956492 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:49:44.964493 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.stg_orders"
+[0m17:49:44.967492 [debug] [Thread-1 (]: On model.Superstore.stg_orders: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.stg_orders"} */
+
+      
+      
+    
+    USE [SuperstoreDETask];
+    EXEC('DROP view IF EXISTS "dbo"."stg_orders__dbt_backup";');
+
+[0m17:49:44.980490 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:49:44.988562 [debug] [Thread-1 (]: On model.Superstore.stg_orders: ROLLBACK
+[0m17:49:44.990556 [debug] [Thread-1 (]: On model.Superstore.stg_orders: Close
+[0m17:49:44.994555 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a9227c84-9494-4f7f-836b-8ebf475b2047', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEEFB3FAA0>]}
+[0m17:49:44.998552 [info ] [Thread-1 (]: 2 of 3 OK created sql view model dbo.stg_orders ................................ [[32mOK[0m in 1.38s]
+[0m17:49:45.002552 [debug] [Thread-1 (]: Finished running node model.Superstore.stg_orders
+[0m17:49:45.007564 [debug] [Thread-1 (]: Began running node model.Superstore.fct_sales_summary
+[0m17:49:45.011552 [info ] [Thread-1 (]: 3 of 3 START sql view model dbo.fct_sales_summary .............................. [RUN]
+[0m17:49:45.017557 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.Superstore.stg_orders, now model.Superstore.fct_sales_summary)
+[0m17:49:45.020554 [debug] [Thread-1 (]: Began compiling node model.Superstore.fct_sales_summary
+[0m17:49:45.033551 [debug] [Thread-1 (]: Writing injected SQL for node "model.Superstore.fct_sales_summary"
+[0m17:49:45.041553 [debug] [Thread-1 (]: Began executing node model.Superstore.fct_sales_summary
+[0m17:49:45.063083 [debug] [Thread-1 (]: Writing runtime sql for node "model.Superstore.fct_sales_summary"
+[0m17:49:45.072089 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.fct_sales_summary"
+[0m17:49:45.075084 [debug] [Thread-1 (]: On model.Superstore.fct_sales_summary: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.fct_sales_summary"} */
+USE [SuperstoreDETask];
+    
+    
+
+    
+
+    
+    USE [SuperstoreDETask];
+    EXEC('
+        create view "dbo"."fct_sales_summary__dbt_tmp" as --Fact Sales
+
+SELECT
+    customer_id,
+    category,
+    sub_category,
+	Region,
+    SUM(sales) AS total_sales,
+    SUM(profit) AS total_profit
+FROM "SuperstoreDETask"."dbo"."stg_orders"
+GROUP BY customer_id, category, sub_category,Region;
+    ')
+
+
+[0m17:49:45.078089 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:49:45.081090 [debug] [Thread-1 (]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-76IM985\SQLEXPRESS;Database=SuperstoreDETask;UID={sa};PWD=***;encrypt=No;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.7
+[0m17:49:45.085092 [debug] [Thread-1 (]: sqlserver adapter: Connected to db: SuperstoreDETask
+[0m17:49:45.098088 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:49:45.112616 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.fct_sales_summary"
+[0m17:49:45.115620 [debug] [Thread-1 (]: On model.Superstore.fct_sales_summary: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.fct_sales_summary"} */
+USE [SuperstoreDETask];
+      EXEC sp_rename 'dbo.fct_sales_summary', 'fct_sales_summary__dbt_backup'
+[0m17:49:46.184130 [debug] [Thread-1 (]: SQL status: OK in 1.000 seconds
+[0m17:49:46.199129 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.fct_sales_summary"
+[0m17:49:46.201134 [debug] [Thread-1 (]: On model.Superstore.fct_sales_summary: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.fct_sales_summary"} */
+USE [SuperstoreDETask];
+      EXEC sp_rename 'dbo.fct_sales_summary__dbt_tmp', 'fct_sales_summary'
+[0m17:49:46.219136 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:49:46.227129 [debug] [Thread-1 (]: On model.Superstore.fct_sales_summary: COMMIT
+[0m17:49:46.245128 [debug] [Thread-1 (]: Applying DROP to: "SuperstoreDETask"."dbo"."fct_sales_summary__dbt_backup"
+[0m17:49:46.251130 [debug] [Thread-1 (]: dbt-sqlserver
+[0m17:49:46.254129 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.fct_sales_summary"
+[0m17:49:46.257130 [debug] [Thread-1 (]: On model.Superstore.fct_sales_summary: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.fct_sales_summary"} */
+
+        USE [SuperstoreDETask];
+        select
+            sch.name as schema_name,
+            obj.name as view_name
+        from sys.sql_expression_dependencies refs
+        inner join sys.objects obj
+        on refs.referencing_id = obj.object_id
+        inner join sys.schemas sch
+        on obj.schema_id = sch.schema_id
+        where refs.referenced_database_name = 'SuperstoreDETask'
+        and refs.referenced_schema_name = 'dbo'
+        and refs.referenced_entity_name = 'fct_sales_summary__dbt_backup'
+        and refs.referencing_class = 1
+        and obj.type = 'V'
+        
+    OPTION (LABEL = 'dbt-sqlserver');
+
+      
+[0m17:49:46.340145 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:49:46.347128 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.fct_sales_summary"
+[0m17:49:46.349130 [debug] [Thread-1 (]: On model.Superstore.fct_sales_summary: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.fct_sales_summary"} */
+
+      
+      
+    
+    USE [SuperstoreDETask];
+    EXEC('DROP view IF EXISTS "dbo"."fct_sales_summary__dbt_backup";');
+
+[0m17:49:46.357146 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m17:49:46.363147 [debug] [Thread-1 (]: On model.Superstore.fct_sales_summary: ROLLBACK
+[0m17:49:46.365146 [debug] [Thread-1 (]: On model.Superstore.fct_sales_summary: Close
+[0m17:49:46.367134 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a9227c84-9494-4f7f-836b-8ebf475b2047', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEEFD17E30>]}
+[0m17:49:46.370146 [info ] [Thread-1 (]: 3 of 3 OK created sql view model dbo.fct_sales_summary ......................... [[32mOK[0m in 1.35s]
+[0m17:49:46.374128 [debug] [Thread-1 (]: Finished running node model.Superstore.fct_sales_summary
+[0m17:49:46.380139 [debug] [MainThread]: On master: COMMIT
+[0m17:49:46.382131 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:49:46.385135 [debug] [MainThread]: Connection 'list_SuperstoreDETask' was properly closed.
+[0m17:49:46.386149 [debug] [MainThread]: Connection 'list_SuperstoreDETask_dbo' was properly closed.
+[0m17:49:46.388128 [debug] [MainThread]: Connection 'model.Superstore.fct_sales_summary' was properly closed.
+[0m17:49:46.392128 [info ] [MainThread]: 
+[0m17:49:46.395134 [info ] [MainThread]: Finished running 3 view models in 0 hours 0 minutes and 5.50 seconds (5.50s).
+[0m17:49:46.401130 [debug] [MainThread]: Command end result
+[0m17:49:46.549127 [info ] [MainThread]: 
+[0m17:49:46.553133 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m17:49:46.556131 [info ] [MainThread]: 
+[0m17:49:46.558130 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[0m17:49:46.563140 [debug] [MainThread]: Command `dbt run` succeeded at 17:49:46.563140 after 13.81 seconds
+[0m17:49:46.566133 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEED805730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEEF5AE7E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEECC156D0>]}
+[0m17:49:46.568133 [debug] [MainThread]: Flushing usage events
+[0m21:54:37.599118 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A21D0CBDD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A21D0CBBF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A21D0CBD40>]}
+
+
+============================== 21:54:37.623817 | dad4ba7b-dccf-4493-9676-050227809fa1 ==============================
+[0m21:54:37.623817 [info ] [MainThread]: Running with dbt=1.8.9
+[0m21:54:37.623817 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'E:\\dbt\\DbtProject\\Superstore\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:54:51.738696 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'dad4ba7b-dccf-4493-9676-050227809fa1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A21EAEBDA0>]}
+[0m21:54:51.997739 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'dad4ba7b-dccf-4493-9676-050227809fa1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A21D0F02C0>]}
+[0m21:54:51.997739 [info ] [MainThread]: Registered adapter: sqlserver=1.8.7
+[0m21:54:54.471564 [debug] [MainThread]: checksum: 132857a23e9d07220246854f7763165174ce9b737cfc7867629ace4294e520b1, vars: {}, profile: , target: , version: 1.8.9
+[0m21:55:00.186372 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m21:55:00.186372 [debug] [MainThread]: Partial parsing: updated file: Superstore://models\facts\fct_sales_summary.sql
+[0m21:55:00.986304 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `tests` config has been renamed to `data_tests`. Please see
+https://docs.getdbt.com/docs/build/data-tests#new-data_tests-syntax for more
+information.
+[0m21:55:00.986304 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'dad4ba7b-dccf-4493-9676-050227809fa1', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A21EB5EE40>]}
+[0m21:55:01.557180 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.Superstore.example
+[0m21:55:01.572826 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'dad4ba7b-dccf-4493-9676-050227809fa1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A21D0CBE90>]}
+[0m21:55:02.256703 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'dad4ba7b-dccf-4493-9676-050227809fa1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A21F1C1040>]}
+[0m21:55:02.256703 [info ] [MainThread]: Found 3 models, 6 data tests, 504 macros
+[0m21:55:02.256703 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'dad4ba7b-dccf-4493-9676-050227809fa1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A21F1D96D0>]}
+[0m21:55:02.277396 [info ] [MainThread]: 
+[0m21:55:02.278561 [debug] [MainThread]: Acquiring new sqlserver connection 'master'
+[0m21:55:02.303303 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_SuperstoreDETask'
+[0m21:55:02.365292 [debug] [ThreadPool]: dbt-sqlserver
+[0m21:55:02.365292 [debug] [ThreadPool]: Using sqlserver connection "list_SuperstoreDETask"
+[0m21:55:02.365292 [debug] [ThreadPool]: On list_SuperstoreDETask: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "connection_name": "list_SuperstoreDETask"} */
+USE [SuperstoreDETask];
+    select  name as [schema]
+    from sys.schemas with (nolock) 
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m21:55:02.380878 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:55:02.380878 [debug] [ThreadPool]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-76IM985\SQLEXPRESS;Database=SuperstoreDETask;UID={sa};PWD=***;encrypt=No;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.7
+[0m21:55:02.820230 [debug] [ThreadPool]: sqlserver adapter: Connected to db: SuperstoreDETask
+[0m21:55:02.882742 [debug] [ThreadPool]: SQL status: OK in 1.000 seconds
+[0m21:55:02.882742 [debug] [ThreadPool]: On list_SuperstoreDETask: Close
+[0m21:55:02.898365 [debug] [ThreadPool]: Acquiring new sqlserver connection 'list_SuperstoreDETask_dbo'
+[0m21:55:02.917719 [debug] [ThreadPool]: dbt-sqlserver
+[0m21:55:02.917719 [debug] [ThreadPool]: Using sqlserver connection "list_SuperstoreDETask_dbo"
+[0m21:55:02.917719 [debug] [ThreadPool]: On list_SuperstoreDETask_dbo: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "connection_name": "list_SuperstoreDETask_dbo"} */
+USE [SuperstoreDETask];
+    with base as (
+      select
+        DB_NAME() as [database],
+        t.name as [name],
+        SCHEMA_NAME(t.schema_id) as [schema],
+        'table' as table_type
+      from sys.tables as t with (nolock)
+      union all
+      select
+        DB_NAME() as [database],
+        v.name as [name],
+        SCHEMA_NAME(v.schema_id) as [schema],
+        'view' as table_type
+      from sys.views as v with (nolock)
+    )
+    select * from base
+    where [schema] like 'dbo'
+    
+    OPTION (LABEL = 'dbt-sqlserver');
+
+  
+[0m21:55:02.917719 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:55:02.933577 [debug] [ThreadPool]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-76IM985\SQLEXPRESS;Database=SuperstoreDETask;UID={sa};PWD=***;encrypt=No;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.7
+[0m21:55:02.933577 [debug] [ThreadPool]: sqlserver adapter: Connected to db: SuperstoreDETask
+[0m21:55:03.235409 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m21:55:03.251044 [debug] [ThreadPool]: On list_SuperstoreDETask_dbo: ROLLBACK
+[0m21:55:03.251044 [debug] [ThreadPool]: On list_SuperstoreDETask_dbo: Close
+[0m21:55:03.251044 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'dad4ba7b-dccf-4493-9676-050227809fa1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A21F122BD0>]}
+[0m21:55:03.251044 [debug] [MainThread]: On master: COMMIT
+[0m21:55:03.267963 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:55:03.267963 [info ] [MainThread]: 
+[0m21:55:03.291854 [debug] [Thread-1 (]: Began running node model.Superstore.dim_customers
+[0m21:55:03.300264 [info ] [Thread-1 (]: 1 of 3 START sql view model dbo.dim_customers .................................. [RUN]
+[0m21:55:03.300264 [debug] [Thread-1 (]: Acquiring new sqlserver connection 'model.Superstore.dim_customers'
+[0m21:55:03.308273 [debug] [Thread-1 (]: Began compiling node model.Superstore.dim_customers
+[0m21:55:03.334436 [debug] [Thread-1 (]: Writing injected SQL for node "model.Superstore.dim_customers"
+[0m21:55:03.350093 [debug] [Thread-1 (]: Began executing node model.Superstore.dim_customers
+[0m21:55:03.490741 [debug] [Thread-1 (]: Writing runtime sql for node "model.Superstore.dim_customers"
+[0m21:55:03.507856 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.dim_customers"
+[0m21:55:03.507856 [debug] [Thread-1 (]: On model.Superstore.dim_customers: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.dim_customers"} */
+USE [SuperstoreDETask];
+    
+    
+
+    
+
+    
+    USE [SuperstoreDETask];
+    EXEC('
+        create view "dbo"."dim_customers__dbt_tmp" as -- DimCustomer
+
+
+
+SELECT DISTINCT
+    customer_id,
+    customer_name,
+    [Segment],
+    [Country]
+FROM dbo.SuperstoreSource;
+    ')
+
+
+[0m21:55:03.507856 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:55:03.515881 [debug] [Thread-1 (]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-76IM985\SQLEXPRESS;Database=SuperstoreDETask;UID={sa};PWD=***;encrypt=No;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.7
+[0m21:55:03.532125 [debug] [Thread-1 (]: sqlserver adapter: Connected to db: SuperstoreDETask
+[0m21:55:03.571504 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m21:55:03.595911 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.dim_customers"
+[0m21:55:03.595911 [debug] [Thread-1 (]: On model.Superstore.dim_customers: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.dim_customers"} */
+USE [SuperstoreDETask];
+      EXEC sp_rename 'dbo.dim_customers', 'dim_customers__dbt_backup'
+[0m21:55:04.582684 [debug] [Thread-1 (]: SQL status: OK in 1.000 seconds
+[0m21:55:04.582684 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.dim_customers"
+[0m21:55:04.598325 [debug] [Thread-1 (]: On model.Superstore.dim_customers: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.dim_customers"} */
+USE [SuperstoreDETask];
+      EXEC sp_rename 'dbo.dim_customers__dbt_tmp', 'dim_customers'
+[0m21:55:04.613934 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m21:55:04.676436 [debug] [Thread-1 (]: On model.Superstore.dim_customers: COMMIT
+[0m21:55:04.707709 [debug] [Thread-1 (]: Applying DROP to: "SuperstoreDETask"."dbo"."dim_customers__dbt_backup"
+[0m21:55:04.748041 [debug] [Thread-1 (]: dbt-sqlserver
+[0m21:55:04.756280 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.dim_customers"
+[0m21:55:04.756280 [debug] [Thread-1 (]: On model.Superstore.dim_customers: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.dim_customers"} */
+
+        USE [SuperstoreDETask];
+        select
+            sch.name as schema_name,
+            obj.name as view_name
+        from sys.sql_expression_dependencies refs
+        inner join sys.objects obj
+        on refs.referencing_id = obj.object_id
+        inner join sys.schemas sch
+        on obj.schema_id = sch.schema_id
+        where refs.referenced_database_name = 'SuperstoreDETask'
+        and refs.referenced_schema_name = 'dbo'
+        and refs.referenced_entity_name = 'dim_customers__dbt_backup'
+        and refs.referencing_class = 1
+        and obj.type = 'V'
+        
+    OPTION (LABEL = 'dbt-sqlserver');
+
+      
+[0m21:55:04.852702 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m21:55:04.868325 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.dim_customers"
+[0m21:55:04.868325 [debug] [Thread-1 (]: On model.Superstore.dim_customers: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.dim_customers"} */
+
+      
+      
+    
+    USE [SuperstoreDETask];
+    EXEC('DROP view IF EXISTS "dbo"."dim_customers__dbt_backup";');
+
+[0m21:55:04.883946 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m21:55:04.899556 [debug] [Thread-1 (]: On model.Superstore.dim_customers: ROLLBACK
+[0m21:55:04.899556 [debug] [Thread-1 (]: On model.Superstore.dim_customers: Close
+[0m21:55:04.899556 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'dad4ba7b-dccf-4493-9676-050227809fa1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A21C7E7E30>]}
+[0m21:55:04.899556 [info ] [Thread-1 (]: 1 of 3 OK created sql view model dbo.dim_customers ............................. [[32mOK[0m in 1.60s]
+[0m21:55:04.915201 [debug] [Thread-1 (]: Finished running node model.Superstore.dim_customers
+[0m21:55:04.915201 [debug] [Thread-1 (]: Began running node model.Superstore.stg_orders
+[0m21:55:04.918734 [info ] [Thread-1 (]: 2 of 3 START sql view model dbo.stg_orders ..................................... [RUN]
+[0m21:55:04.918734 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.Superstore.dim_customers, now model.Superstore.stg_orders)
+[0m21:55:04.918734 [debug] [Thread-1 (]: Began compiling node model.Superstore.stg_orders
+[0m21:55:05.122487 [debug] [Thread-1 (]: Writing injected SQL for node "model.Superstore.stg_orders"
+[0m21:55:05.122487 [debug] [Thread-1 (]: Began executing node model.Superstore.stg_orders
+[0m21:55:05.138113 [debug] [Thread-1 (]: Writing runtime sql for node "model.Superstore.stg_orders"
+[0m21:55:05.153736 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.stg_orders"
+[0m21:55:05.153736 [debug] [Thread-1 (]: On model.Superstore.stg_orders: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.stg_orders"} */
+USE [SuperstoreDETask];
+    
+    
+
+    
+
+    
+    USE [SuperstoreDETask];
+    EXEC('
+        create view "dbo"."stg_orders__dbt_tmp" as -- Order Staging 
+
+
+SELECT
+    CAST([Order_ID] AS VARCHAR(200)) AS order_id,
+    Order_Date,
+    Ship_Date,
+    Customer_ID,
+    [Segment],
+    [Country],
+    [Region],
+    [Category],
+    sub_category,
+    [Sales],
+    [Profit]
+FROM dbo.SuperstoreSource;
+    ')
+
+
+[0m21:55:05.153736 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:55:05.153736 [debug] [Thread-1 (]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-76IM985\SQLEXPRESS;Database=SuperstoreDETask;UID={sa};PWD=***;encrypt=No;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.7
+[0m21:55:05.153736 [debug] [Thread-1 (]: sqlserver adapter: Connected to db: SuperstoreDETask
+[0m21:55:05.169379 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m21:55:05.185645 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.stg_orders"
+[0m21:55:05.185645 [debug] [Thread-1 (]: On model.Superstore.stg_orders: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.stg_orders"} */
+USE [SuperstoreDETask];
+      EXEC sp_rename 'dbo.stg_orders', 'stg_orders__dbt_backup'
+[0m21:55:06.008463 [debug] [Thread-1 (]: SQL status: OK in 1.000 seconds
+[0m21:55:06.024091 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.stg_orders"
+[0m21:55:06.024091 [debug] [Thread-1 (]: On model.Superstore.stg_orders: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.stg_orders"} */
+USE [SuperstoreDETask];
+      EXEC sp_rename 'dbo.stg_orders__dbt_tmp', 'stg_orders'
+[0m21:55:06.024091 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m21:55:06.039713 [debug] [Thread-1 (]: On model.Superstore.stg_orders: COMMIT
+[0m21:55:06.055339 [debug] [Thread-1 (]: Applying DROP to: "SuperstoreDETask"."dbo"."stg_orders__dbt_backup"
+[0m21:55:06.055339 [debug] [Thread-1 (]: dbt-sqlserver
+[0m21:55:06.055339 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.stg_orders"
+[0m21:55:06.055339 [debug] [Thread-1 (]: On model.Superstore.stg_orders: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.stg_orders"} */
+
+        USE [SuperstoreDETask];
+        select
+            sch.name as schema_name,
+            obj.name as view_name
+        from sys.sql_expression_dependencies refs
+        inner join sys.objects obj
+        on refs.referencing_id = obj.object_id
+        inner join sys.schemas sch
+        on obj.schema_id = sch.schema_id
+        where refs.referenced_database_name = 'SuperstoreDETask'
+        and refs.referenced_schema_name = 'dbo'
+        and refs.referenced_entity_name = 'stg_orders__dbt_backup'
+        and refs.referencing_class = 1
+        and obj.type = 'V'
+        
+    OPTION (LABEL = 'dbt-sqlserver');
+
+      
+[0m21:55:06.149086 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m21:55:06.164715 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.stg_orders"
+[0m21:55:06.164715 [debug] [Thread-1 (]: On model.Superstore.stg_orders: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.stg_orders"} */
+
+      
+      
+    
+    USE [SuperstoreDETask];
+    EXEC('DROP view IF EXISTS "dbo"."stg_orders__dbt_backup";');
+
+[0m21:55:06.164715 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m21:55:06.180339 [debug] [Thread-1 (]: On model.Superstore.stg_orders: ROLLBACK
+[0m21:55:06.180339 [debug] [Thread-1 (]: On model.Superstore.stg_orders: Close
+[0m21:55:06.180339 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'dad4ba7b-dccf-4493-9676-050227809fa1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A21F042990>]}
+[0m21:55:06.180339 [info ] [Thread-1 (]: 2 of 3 OK created sql view model dbo.stg_orders ................................ [[32mOK[0m in 1.26s]
+[0m21:55:06.195966 [debug] [Thread-1 (]: Finished running node model.Superstore.stg_orders
+[0m21:55:06.195966 [debug] [Thread-1 (]: Began running node model.Superstore.fct_sales_summary
+[0m21:55:06.195966 [info ] [Thread-1 (]: 3 of 3 START sql view model dbo.fct_sales_summary .............................. [RUN]
+[0m21:55:06.195966 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.Superstore.stg_orders, now model.Superstore.fct_sales_summary)
+[0m21:55:06.195966 [debug] [Thread-1 (]: Began compiling node model.Superstore.fct_sales_summary
+[0m21:55:06.211588 [debug] [Thread-1 (]: Writing injected SQL for node "model.Superstore.fct_sales_summary"
+[0m21:55:06.227213 [debug] [Thread-1 (]: Began executing node model.Superstore.fct_sales_summary
+[0m21:55:06.242839 [debug] [Thread-1 (]: Writing runtime sql for node "model.Superstore.fct_sales_summary"
+[0m21:55:06.242839 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.fct_sales_summary"
+[0m21:55:06.258463 [debug] [Thread-1 (]: On model.Superstore.fct_sales_summary: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.fct_sales_summary"} */
+USE [SuperstoreDETask];
+    
+    
+
+    
+
+    
+    USE [SuperstoreDETask];
+    EXEC('
+        create view "dbo"."fct_sales_summary__dbt_tmp" as --Fact Sales
+
+SELECT
+    customer_id,
+    category,
+    sub_category,
+	Order_Date,
+	Region,
+    SUM(sales) AS total_sales,
+    SUM(profit) AS total_profit
+FROM "SuperstoreDETask"."dbo"."stg_orders"
+GROUP BY customer_id, category, sub_category,Order_Date,Region;
+    ')
+
+
+[0m21:55:06.258463 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:55:06.258463 [debug] [Thread-1 (]: sqlserver adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-76IM985\SQLEXPRESS;Database=SuperstoreDETask;UID={sa};PWD=***;encrypt=No;TrustServerCertificate=No;APP=dbt-sqlserver/1.8.7
+[0m21:55:06.258463 [debug] [Thread-1 (]: sqlserver adapter: Connected to db: SuperstoreDETask
+[0m21:55:06.274086 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m21:55:06.289714 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.fct_sales_summary"
+[0m21:55:06.289714 [debug] [Thread-1 (]: On model.Superstore.fct_sales_summary: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.fct_sales_summary"} */
+USE [SuperstoreDETask];
+      EXEC sp_rename 'dbo.fct_sales_summary', 'fct_sales_summary__dbt_backup'
+[0m21:55:07.203795 [debug] [Thread-1 (]: SQL status: OK in 1.000 seconds
+[0m21:55:07.219421 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.fct_sales_summary"
+[0m21:55:07.219421 [debug] [Thread-1 (]: On model.Superstore.fct_sales_summary: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.fct_sales_summary"} */
+USE [SuperstoreDETask];
+      EXEC sp_rename 'dbo.fct_sales_summary__dbt_tmp', 'fct_sales_summary'
+[0m21:55:07.235045 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m21:55:07.250670 [debug] [Thread-1 (]: On model.Superstore.fct_sales_summary: COMMIT
+[0m21:55:07.266303 [debug] [Thread-1 (]: Applying DROP to: "SuperstoreDETask"."dbo"."fct_sales_summary__dbt_backup"
+[0m21:55:07.266303 [debug] [Thread-1 (]: dbt-sqlserver
+[0m21:55:07.266303 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.fct_sales_summary"
+[0m21:55:07.281924 [debug] [Thread-1 (]: On model.Superstore.fct_sales_summary: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.fct_sales_summary"} */
+
+        USE [SuperstoreDETask];
+        select
+            sch.name as schema_name,
+            obj.name as view_name
+        from sys.sql_expression_dependencies refs
+        inner join sys.objects obj
+        on refs.referencing_id = obj.object_id
+        inner join sys.schemas sch
+        on obj.schema_id = sch.schema_id
+        where refs.referenced_database_name = 'SuperstoreDETask'
+        and refs.referenced_schema_name = 'dbo'
+        and refs.referenced_entity_name = 'fct_sales_summary__dbt_backup'
+        and refs.referencing_class = 1
+        and obj.type = 'V'
+        
+    OPTION (LABEL = 'dbt-sqlserver');
+
+      
+[0m21:55:07.367721 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m21:55:07.383344 [debug] [Thread-1 (]: Using sqlserver connection "model.Superstore.fct_sales_summary"
+[0m21:55:07.383344 [debug] [Thread-1 (]: On model.Superstore.fct_sales_summary: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "Superstore", "target_name": "dev", "node_id": "model.Superstore.fct_sales_summary"} */
+
+      
+      
+    
+    USE [SuperstoreDETask];
+    EXEC('DROP view IF EXISTS "dbo"."fct_sales_summary__dbt_backup";');
+
+[0m21:55:07.383344 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m21:55:07.398971 [debug] [Thread-1 (]: On model.Superstore.fct_sales_summary: ROLLBACK
+[0m21:55:07.398971 [debug] [Thread-1 (]: On model.Superstore.fct_sales_summary: Close
+[0m21:55:07.398971 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'dad4ba7b-dccf-4493-9676-050227809fa1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A21F274950>]}
+[0m21:55:07.414598 [info ] [Thread-1 (]: 3 of 3 OK created sql view model dbo.fct_sales_summary ......................... [[32mOK[0m in 1.20s]
+[0m21:55:07.414598 [debug] [Thread-1 (]: Finished running node model.Superstore.fct_sales_summary
+[0m21:55:07.414598 [debug] [MainThread]: On master: COMMIT
+[0m21:55:07.414598 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:55:07.414598 [debug] [MainThread]: Connection 'list_SuperstoreDETask' was properly closed.
+[0m21:55:07.430222 [debug] [MainThread]: Connection 'list_SuperstoreDETask_dbo' was properly closed.
+[0m21:55:07.430222 [debug] [MainThread]: Connection 'model.Superstore.fct_sales_summary' was properly closed.
+[0m21:55:07.430222 [info ] [MainThread]: 
+[0m21:55:07.430222 [info ] [MainThread]: Finished running 3 view models in 0 hours 0 minutes and 5.15 seconds (5.15s).
+[0m21:55:07.445846 [debug] [MainThread]: Command end result
+[0m21:55:07.586474 [info ] [MainThread]: 
+[0m21:55:07.586474 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:55:07.586474 [info ] [MainThread]: 
+[0m21:55:07.586474 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[0m21:55:07.602095 [debug] [MainThread]: Command `dbt run` succeeded at 21:55:07.602095 after 30.58 seconds
+[0m21:55:07.602095 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A21CDC7830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A21C3AED20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A21CCD2120>]}
+[0m21:55:07.602095 [debug] [MainThread]: Flushing usage events
